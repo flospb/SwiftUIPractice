@@ -19,6 +19,8 @@ class ScrumStore: ObservableObject {
         .appendingPathComponent("scrums.data")
     }
     
+    // MARK: - Static
+    
     static func load(completion: @escaping (Result<[DailyScrum], Error>)->Void) {
         DispatchQueue.global(qos: .background).async {
             do {
