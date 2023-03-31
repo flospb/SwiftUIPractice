@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A40BC19D29D430B800E1A64C /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40BC19C29D430B800E1A64C /* TrailingIconLabelStyle.swift */; };
+		A40BC19F29D4379800E1A64C /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40BC19E29D4379800E1A64C /* ScrumsView.swift */; };
+		A40BC1A129D4656800E1A64C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40BC1A029D4656800E1A64C /* DetailView.swift */; };
+		A40BC1A329D4860E00E1A64C /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40BC1A229D4860E00E1A64C /* DetailEditView.swift */; };
+		A42A448429D5A2E800149CDA /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A448329D5A2E800149CDA /* ThemeView.swift */; };
+		A42A448629D5A5C000149CDA /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A448529D5A5C000149CDA /* ThemePicker.swift */; };
+		A42A448D29D5CA7100149CDA /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A448C29D5CA7100149CDA /* MeetingHeaderView.swift */; };
+		A42A448F29D5CFC900149CDA /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A448E29D5CFC900149CDA /* ScrumProgressViewStyle.swift */; };
+		A42A449129D5D30200149CDA /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A449029D5D30200149CDA /* ScrumTimer.swift */; };
+		A42A449329D5D90200149CDA /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A449229D5D90200149CDA /* MeetingFooterView.swift */; };
+		A42A449629D5DC2100149CDA /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A449529D5DC2100149CDA /* AVPlayer+Ding.swift */; };
+		A42A449829D61FF600149CDA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A449729D61FF600149CDA /* History.swift */; };
+		A42A449A29D6263C00149CDA /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A449929D6263C00149CDA /* ScrumStore.swift */; };
+		A471264A29D30C3900F14996 /* FloristAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471264929D30C3900F14996 /* FloristAppApp.swift */; };
+		A471264C29D30C3900F14996 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471264B29D30C3900F14996 /* MeetingView.swift */; };
+		A471264E29D30C3B00F14996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A471264D29D30C3B00F14996 /* Assets.xcassets */; };
+		A471265129D30C3B00F14996 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A471265029D30C3B00F14996 /* Preview Assets.xcassets */; };
+		A471265929D3270C00F14996 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471265829D3270C00F14996 /* Theme.swift */; };
+		A471265B29D32B9A00F14996 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471265A29D32B9A00F14996 /* DailyScrum.swift */; };
+		A471265D29D32C5300F14996 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471265C29D32C5300F14996 /* CardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A40BC19C29D430B800E1A64C /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		A40BC19E29D4379800E1A64C /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		A40BC1A029D4656800E1A64C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A40BC1A229D4860E00E1A64C /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		A42A448329D5A2E800149CDA /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		A42A448529D5A5C000149CDA /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		A42A448C29D5CA7100149CDA /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
+		A42A448E29D5CFC900149CDA /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
+		A42A449029D5D30200149CDA /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		A42A449229D5D90200149CDA /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		A42A449529D5DC2100149CDA /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		A42A449729D61FF600149CDA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		A42A449929D6263C00149CDA /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		A471264629D30C3900F14996 /* FloristApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloristApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A471264929D30C3900F14996 /* FloristAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloristAppApp.swift; sourceTree = "<group>"; };
+		A471264B29D30C3900F14996 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		A471264D29D30C3B00F14996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A471265029D30C3B00F14996 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A471265829D3270C00F14996 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A471265A29D32B9A00F14996 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		A471265C29D32C5300F14996 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A471264329D30C3900F14996 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A42A448729D5AD8B00149CDA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A42A448B29D5AE4600149CDA /* ScrumDetails */,
+				A42A448A29D5AE2400149CDA /* Themes */,
+				A42A448929D5AD9F00149CDA /* Meeting */,
+				A42A448829D5AD9500149CDA /* Scrums */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A42A448829D5AD9500149CDA /* Scrums */ = {
+			isa = PBXGroup;
+			children = (
+				A471265C29D32C5300F14996 /* CardView.swift */,
+				A40BC19E29D4379800E1A64C /* ScrumsView.swift */,
+				A42A448E29D5CFC900149CDA /* ScrumProgressViewStyle.swift */,
+			);
+			path = Scrums;
+			sourceTree = "<group>";
+		};
+		A42A448929D5AD9F00149CDA /* Meeting */ = {
+			isa = PBXGroup;
+			children = (
+				A471264B29D30C3900F14996 /* MeetingView.swift */,
+				A42A448C29D5CA7100149CDA /* MeetingHeaderView.swift */,
+				A42A449229D5D90200149CDA /* MeetingFooterView.swift */,
+			);
+			path = Meeting;
+			sourceTree = "<group>";
+		};
+		A42A448A29D5AE2400149CDA /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				A42A448529D5A5C000149CDA /* ThemePicker.swift */,
+				A42A448329D5A2E800149CDA /* ThemeView.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		A42A448B29D5AE4600149CDA /* ScrumDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A40BC1A029D4656800E1A64C /* DetailView.swift */,
+				A40BC1A229D4860E00E1A64C /* DetailEditView.swift */,
+			);
+			path = ScrumDetails;
+			sourceTree = "<group>";
+		};
+		A42A449429D5DC0E00149CDA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A42A449529D5DC2100149CDA /* AVPlayer+Ding.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A471263D29D30C3900F14996 = {
+			isa = PBXGroup;
+			children = (
+				A471264829D30C3900F14996 /* FloristApp */,
+				A471264729D30C3900F14996 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A471264729D30C3900F14996 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A471264629D30C3900F14996 /* FloristApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A471264829D30C3900F14996 /* FloristApp */ = {
+			isa = PBXGroup;
+			children = (
+				A42A449429D5DC0E00149CDA /* Extensions */,
+				A471264929D30C3900F14996 /* FloristAppApp.swift */,
+				A471265729D326E000F14996 /* Models */,
+				A42A448729D5AD8B00149CDA /* Views */,
+				A471264D29D30C3B00F14996 /* Assets.xcassets */,
+				A471264F29D30C3B00F14996 /* Preview Content */,
+			);
+			path = FloristApp;
+			sourceTree = "<group>";
+		};
+		A471264F29D30C3B00F14996 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A471265029D30C3B00F14996 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A471265729D326E000F14996 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A471265829D3270C00F14996 /* Theme.swift */,
+				A471265A29D32B9A00F14996 /* DailyScrum.swift */,
+				A42A449729D61FF600149CDA /* History.swift */,
+				A40BC19C29D430B800E1A64C /* TrailingIconLabelStyle.swift */,
+				A42A449929D6263C00149CDA /* ScrumStore.swift */,
+				A42A449029D5D30200149CDA /* ScrumTimer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A471264529D30C3900F14996 /* FloristApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A471265429D30C3B00F14996 /* Build configuration list for PBXNativeTarget "FloristApp" */;
+			buildPhases = (
+				A471264229D30C3900F14996 /* Sources */,
+				A471264329D30C3900F14996 /* Frameworks */,
+				A471264429D30C3900F14996 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloristApp;
+			productName = FloristApp;
+			productReference = A471264629D30C3900F14996 /* FloristApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A471263E29D30C3900F14996 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A471264529D30C3900F14996 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = A471264129D30C3900F14996 /* Build configuration list for PBXProject "FloristApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A471263D29D30C3900F14996;
+			productRefGroup = A471264729D30C3900F14996 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A471264529D30C3900F14996 /* FloristApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A471264429D30C3900F14996 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A471265129D30C3B00F14996 /* Preview Assets.xcassets in Resources */,
+				A471264E29D30C3B00F14996 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A471264229D30C3900F14996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42A449829D61FF600149CDA /* History.swift in Sources */,
+				A42A448629D5A5C000149CDA /* ThemePicker.swift in Sources */,
+				A42A448F29D5CFC900149CDA /* ScrumProgressViewStyle.swift in Sources */,
+				A42A449329D5D90200149CDA /* MeetingFooterView.swift in Sources */,
+				A42A449A29D6263C00149CDA /* ScrumStore.swift in Sources */,
+				A42A449129D5D30200149CDA /* ScrumTimer.swift in Sources */,
+				A471265B29D32B9A00F14996 /* DailyScrum.swift in Sources */,
+				A40BC1A129D4656800E1A64C /* DetailView.swift in Sources */,
+				A42A448D29D5CA7100149CDA /* MeetingHeaderView.swift in Sources */,
+				A40BC1A329D4860E00E1A64C /* DetailEditView.swift in Sources */,
+				A40BC19D29D430B800E1A64C /* TrailingIconLabelStyle.swift in Sources */,
+				A471265929D3270C00F14996 /* Theme.swift in Sources */,
+				A40BC19F29D4379800E1A64C /* ScrumsView.swift in Sources */,
+				A471264C29D30C3900F14996 /* MeetingView.swift in Sources */,
+				A471264A29D30C3900F14996 /* FloristAppApp.swift in Sources */,
+				A42A448429D5A2E800149CDA /* ThemeView.swift in Sources */,
+				A471265D29D32C5300F14996 /* CardView.swift in Sources */,
+				A42A449629D5DC2100149CDA /* AVPlayer+Ding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A471265229D30C3B00F14996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A471265329D30C3B00F14996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A471265529D30C3B00F14996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FloristApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FloristApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A471265629D30C3B00F14996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FloristApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FloristApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A471264129D30C3900F14996 /* Build configuration list for PBXProject "FloristApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A471265229D30C3B00F14996 /* Debug */,
+				A471265329D30C3B00F14996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A471265429D30C3B00F14996 /* Build configuration list for PBXNativeTarget "FloristApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A471265529D30C3B00F14996 /* Debug */,
+				A471265629D30C3B00F14996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A471263E29D30C3900F14996 /* Project object */;
+}
