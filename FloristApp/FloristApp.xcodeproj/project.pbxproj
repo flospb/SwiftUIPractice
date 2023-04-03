@@ -20,6 +20,8 @@
 		A42A449629D5DC2100149CDA /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A449529D5DC2100149CDA /* AVPlayer+Ding.swift */; };
 		A42A449829D61FF600149CDA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A449729D61FF600149CDA /* History.swift */; };
 		A42A449A29D6263C00149CDA /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A449929D6263C00149CDA /* ScrumStore.swift */; };
+		A42A449D29D6F89000149CDA /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A449C29D6F89000149CDA /* ErrorWrapper.swift */; };
+		A42A44A029D6FA2700149CDA /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A449F29D6FA2700149CDA /* ErrorView.swift */; };
 		A471264A29D30C3900F14996 /* FloristAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471264929D30C3900F14996 /* FloristAppApp.swift */; };
 		A471264C29D30C3900F14996 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471264B29D30C3900F14996 /* MeetingView.swift */; };
 		A471264E29D30C3B00F14996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A471264D29D30C3B00F14996 /* Assets.xcassets */; };
@@ -27,6 +29,10 @@
 		A471265929D3270C00F14996 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471265829D3270C00F14996 /* Theme.swift */; };
 		A471265B29D32B9A00F14996 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471265A29D32B9A00F14996 /* DailyScrum.swift */; };
 		A471265D29D32C5300F14996 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471265C29D32C5300F14996 /* CardView.swift */; };
+		A4D8F12929DAE70D0037C8B3 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8F12829DAE70D0037C8B3 /* MeetingTimerView.swift */; };
+		A4D8F12B29DAE9D10037C8B3 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8F12A29DAE9D10037C8B3 /* SpeakerArc.swift */; };
+		A4D8F12E29DAEF8C0037C8B3 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8F12D29DAEF8C0037C8B3 /* SpeechRecognizer.swift */; };
+		A4D8F13129DAF19D0037C8B3 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8F13029DAF19D0037C8B3 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +49,8 @@
 		A42A449529D5DC2100149CDA /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		A42A449729D61FF600149CDA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		A42A449929D6263C00149CDA /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		A42A449C29D6F89000149CDA /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		A42A449F29D6FA2700149CDA /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		A471264629D30C3900F14996 /* FloristApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloristApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A471264929D30C3900F14996 /* FloristAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloristAppApp.swift; sourceTree = "<group>"; };
 		A471264B29D30C3900F14996 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		A471265829D3270C00F14996 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		A471265A29D32B9A00F14996 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		A471265C29D32C5300F14996 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A4D8F12829DAE70D0037C8B3 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		A4D8F12A29DAE9D10037C8B3 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
+		A4D8F12D29DAEF8C0037C8B3 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		A4D8F13029DAF19D0037C8B3 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,20 +76,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A42A448729D5AD8B00149CDA /* Views */ = {
+		A42A448729D5AD8B00149CDA /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				A4D8F12F29DAF1890037C8B3 /* History */,
+				A42A449E29D6FA1600149CDA /* Errors */,
 				A42A448B29D5AE4600149CDA /* ScrumDetails */,
 				A42A448A29D5AE2400149CDA /* Themes */,
 				A42A448929D5AD9F00149CDA /* Meeting */,
 				A42A448829D5AD9500149CDA /* Scrums */,
 			);
-			path = Views;
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		A42A448829D5AD9500149CDA /* Scrums */ = {
 			isa = PBXGroup;
 			children = (
+				A42A449929D6263C00149CDA /* ScrumStore.swift */,
+				A42A449029D5D30200149CDA /* ScrumTimer.swift */,
 				A471265C29D32C5300F14996 /* CardView.swift */,
 				A40BC19E29D4379800E1A64C /* ScrumsView.swift */,
 				A42A448E29D5CFC900149CDA /* ScrumProgressViewStyle.swift */,
@@ -91,6 +107,7 @@
 				A471264B29D30C3900F14996 /* MeetingView.swift */,
 				A42A448C29D5CA7100149CDA /* MeetingHeaderView.swift */,
 				A42A449229D5D90200149CDA /* MeetingFooterView.swift */,
+				A4D8F12829DAE70D0037C8B3 /* MeetingTimerView.swift */,
 			);
 			path = Meeting;
 			sourceTree = "<group>";
@@ -121,6 +138,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		A42A449E29D6FA1600149CDA /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				A42A449F29D6FA2700149CDA /* ErrorView.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
 		A471263D29D30C3900F14996 = {
 			isa = PBXGroup;
 			children = (
@@ -143,7 +168,7 @@
 				A42A449429D5DC0E00149CDA /* Extensions */,
 				A471264929D30C3900F14996 /* FloristAppApp.swift */,
 				A471265729D326E000F14996 /* Models */,
-				A42A448729D5AD8B00149CDA /* Views */,
+				A42A448729D5AD8B00149CDA /* Screens */,
 				A471264D29D30C3B00F14996 /* Assets.xcassets */,
 				A471264F29D30C3B00F14996 /* Preview Content */,
 			);
@@ -162,13 +187,22 @@
 			isa = PBXGroup;
 			children = (
 				A471265829D3270C00F14996 /* Theme.swift */,
+				A42A449C29D6F89000149CDA /* ErrorWrapper.swift */,
 				A471265A29D32B9A00F14996 /* DailyScrum.swift */,
 				A42A449729D61FF600149CDA /* History.swift */,
 				A40BC19C29D430B800E1A64C /* TrailingIconLabelStyle.swift */,
-				A42A449929D6263C00149CDA /* ScrumStore.swift */,
-				A42A449029D5D30200149CDA /* ScrumTimer.swift */,
+				A4D8F12D29DAEF8C0037C8B3 /* SpeechRecognizer.swift */,
+				A4D8F12A29DAE9D10037C8B3 /* SpeakerArc.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A4D8F12F29DAF1890037C8B3 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				A4D8F13029DAF19D0037C8B3 /* HistoryView.swift */,
+			);
+			path = History;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A42A449829D61FF600149CDA /* History.swift in Sources */,
+				A4D8F13129DAF19D0037C8B3 /* HistoryView.swift in Sources */,
 				A42A448629D5A5C000149CDA /* ThemePicker.swift in Sources */,
 				A42A448F29D5CFC900149CDA /* ScrumProgressViewStyle.swift in Sources */,
 				A42A449329D5D90200149CDA /* MeetingFooterView.swift in Sources */,
@@ -250,14 +285,19 @@
 				A471265B29D32B9A00F14996 /* DailyScrum.swift in Sources */,
 				A40BC1A129D4656800E1A64C /* DetailView.swift in Sources */,
 				A42A448D29D5CA7100149CDA /* MeetingHeaderView.swift in Sources */,
+				A4D8F12929DAE70D0037C8B3 /* MeetingTimerView.swift in Sources */,
 				A40BC1A329D4860E00E1A64C /* DetailEditView.swift in Sources */,
+				A42A449D29D6F89000149CDA /* ErrorWrapper.swift in Sources */,
 				A40BC19D29D430B800E1A64C /* TrailingIconLabelStyle.swift in Sources */,
 				A471265929D3270C00F14996 /* Theme.swift in Sources */,
 				A40BC19F29D4379800E1A64C /* ScrumsView.swift in Sources */,
 				A471264C29D30C3900F14996 /* MeetingView.swift in Sources */,
+				A4D8F12E29DAEF8C0037C8B3 /* SpeechRecognizer.swift in Sources */,
+				A42A44A029D6FA2700149CDA /* ErrorView.swift in Sources */,
 				A471264A29D30C3900F14996 /* FloristAppApp.swift in Sources */,
 				A42A448429D5A2E800149CDA /* ThemeView.swift in Sources */,
 				A471265D29D32C5300F14996 /* CardView.swift in Sources */,
+				A4D8F12B29DAE9D10037C8B3 /* SpeakerArc.swift in Sources */,
 				A42A449629D5DC2100149CDA /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,11 +429,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FloristApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -417,11 +460,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FloristApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
